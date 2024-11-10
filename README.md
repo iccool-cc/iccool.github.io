@@ -1,2 +1,2 @@
-# iccool's blog
+# welcome to iccool's blog
 https://iccool.vercel.app/
