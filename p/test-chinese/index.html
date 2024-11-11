@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://example.com/p/test-chinese/'>
 
-<link rel="stylesheet" href="/scss/style.min.5596803cf20544427694f6c5bb27b66a09b405f571a8a5efd6a5a1d06016e105.css"><meta property='og:title' content="Chinese Test">
+<link rel="stylesheet" href="/scss/style.min.bd40bd88c6ef5dc82a936769e0e4e79f88c92abbd9b1f0a86ab424535a912c8f.css"><meta property='og:title' content="Chinese Test">
 <meta property='og:description' content="这是一个副标题">
 <meta property='og:url' content='https://example.com/p/test-chinese/'>
 <meta property='og:site_name' content='小小时光咖啡屋'>
@@ -79,7 +79,7 @@ article-page
             
                 <li>
                     <a 
-                        href='https://bilibili.com'
+                        href='https://space.bilibili.com/12046532'
                         target="_blank"
                         title="Bilibili"
                         rel="me"
@@ -239,32 +239,153 @@ article-page
         
             
                 
-    <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
 
+<button id="toggle-toc">Toc</button>
 
+<section class="widget archives" id="toc-container">
+    
+    <h2 class="widget-title section-title">目录</h2>
+    
 
-        </div>
-        <h2 class="widget-title section-title">目录</h2>
+    <div class="widget--toc">
         
-        <div class="widget--toc">
-            <nav id="TableOfContents">
+        <nav id="TableOfContents">
   <ol>
-    <li><a href="#正文测试">正文测试</a></li>
-    <li><a href="#引用">引用</a></li>
-    <li><a href="#图片">图片</a></li>
+    <li>
+      <ol>
+        <li><a href="#正文测试">正文测试</a></li>
+        <li><a href="#引用">引用</a></li>
+        <li><a href="#图片">图片</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
-        </div>
-    </section>
+        
+    </div>
+</section>
 
+
+<style>
+    #mulu {
+        z-index: 9999;
+    }
+
+    #toc-container {
+        display: none;
+         
+        position: fixed;
+         
+        top: 11%;
+         
+        right: 60px;
+         
+        background-color: var(--card-background);
+         
+        padding: 10px;
+         
+        border: 1px solid #96979a50;
+        border-radius: var(--card-border-radius);
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+         
+        z-index: 9998 !important;
+         
+        max-height: 60vh;
+         
+        overflow-y: auto;
+         
+        width: auto;
+         
+         
+         
+        max-width: 270px;
+    }
+
+    #toggle-toc {
+        position: fixed;
+        top: 10%;
+        right: 20px;
+        padding: 10px 10px;
+        z-index: 9998 !important;
+        border: 0px solid #96979a50;
+        border-radius: 7px;
+        box-shadow: var(--shadow-l1);
+        background-color: #00640010;
+        color: #34495e;
+         
+         
+        display: block;
+         
+        margin-bottom: 10px;
+        cursor: pointer;
+        font-size: 1.2rem;
+         
+    }
+
+     
+
+    @media screen and (max-width: 768px) {
+        #toggle-toc {
+            bottom: 100px;
+        }
+    }
+</style>
+
+<script>
+    
+    var toggleButton = document.getElementById('toggle-toc');
+    var tocContainer = document.getElementById('toc-container');
+    var scrollThreshold = 200; 
+
+    
+    window.addEventListener('scroll', function () {
+        
+        var scrollY = window.scrollY || window.pageYOffset;
+
+        
+        if (scrollY >= scrollThreshold) {
+            
+            toggleButton.style.display = 'block';
+        } else {
+            
+            toggleButton.style.display = 'none';
+        }
+    });
+
+    
+    toggleButton.addEventListener('click', function () {
+        
+        if (tocContainer.style.display === 'none' || tocContainer.style.display === '') {
+            tocContainer.style.display = 'block';
+        } else {
+            tocContainer.style.display = 'none';
+        }
+    });
+    
+    toggleButton.addEventListener('mouseover', function () {
+        tocContainer.style.display = 'block';
+    });
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+        
+    document.addEventListener('click', function (event) {
+        
+        if (!tocContainer.contains(event.target) && event.target !== toggleButton) {
+            
+            tocContainer.style.display = 'none';
+        }
+    });
+</script>
             
         
     </aside>
@@ -432,16 +553,16 @@ article-page
 	
 	
 ></p>
-<div class="highlight"><div style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f">3
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
 </span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#e06c75">Photo by Florian Klauer on Unsplash</span>](<span style="color:#e06c75">florian-klauer-nptLmg6jqDo-unsplash.jpg</span>)  ![<span style="color:#e06c75">Photo by Luca Bravo on Unsplash</span>](<span style="color:#e06c75">luca-bravo-alS7ewQ41M8-unsplash.jpg</span>) 
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>![<span style="color:#e06c75">Photo by Helena Hertz on Unsplash</span>](<span style="color:#e06c75">helena-hertz-wWZzXlDpMog-unsplash.jpg</span>)  ![<span style="color:#e06c75">Photo by Hudai Gayiran on Unsplash</span>](<span style="color:#e06c75">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg</span>)
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">![<span class="nt">Photo by Florian Klauer on Unsplash</span>](<span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg</span>)  ![<span class="nt">Photo by Luca Bravo on Unsplash</span>](<span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg</span>) 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">![<span class="nt">Photo by Helena Hertz on Unsplash</span>](<span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg</span>)  ![<span class="nt">Photo by Hudai Gayiran on Unsplash</span>](<span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg</span>)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>相册语法来自 <a class="link" href="https://typlog.com/"  target="_blank" rel="noopener"
@@ -484,39 +605,6 @@ article-page
 
 
 
-
-<aside class="related-content--wrapper">
-    <h2 class="section-title">相关文章</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
-                
-<article class="has-image">
-    <a href="/p/test/">
-        
-        
-            <div class="article-image">
-                <img src="/p/test/cover.46f61e8ea6a2df8fc5bf1d24a17c44a6_hu3238087930799200081.jpg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Test"
-                        
-                        data-hash="md5-RvYejqai34/Fvx0koXxEpg==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Test</h2>
-        </div>
-    </a>
-</article>
-
-            
-        </div>
-    </div>
-</aside>
 
 
 
