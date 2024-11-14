@@ -2,19 +2,19 @@
 <html lang="zh-cn" dir="ltr">
 
 <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
-<title>Golang</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="#1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1 1 1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n">
+<title>Test Toc</title>
 
-<link rel='canonical' href='https://example.com/tags/golang/golang/'>
+<link rel='canonical' href='https://example.com/p/test-toc/'>
 
-<link rel="stylesheet" href="/scss/style.min.a3b07c0edadc1de12fc167c2a711f213adeedfedb44e7d9126839b6a4838e0b0.css"><meta property='og:title' content="Golang">
-<meta property='og:description' content="">
-<meta property='og:url' content='https://example.com/tags/golang/golang/'>
+<link rel="stylesheet" href="/scss/style.min.a3b07c0edadc1de12fc167c2a711f213adeedfedb44e7d9126839b6a4838e0b0.css"><meta property='og:title' content="Test Toc">
+<meta property='og:description' content="#1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1 1 1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n">
+<meta property='og:url' content='https://example.com/p/test-toc/'>
 <meta property='og:site_name' content='小小时光咖啡屋'>
-<meta property='og:type' content='article'><meta property='article:section' content='Tags' /><meta property='article:modified_time' content='2024-11-10T14:42:25&#43;08:00'/><meta property='og:image' content='https://example.com/cover.png' />
-<meta name="twitter:title" content="Golang">
-<meta name="twitter:description" content=""><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://example.com/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2024-11-13T16:37:10&#43;08:00'/><meta property='article:modified_time' content='2024-11-13T16:37:10&#43;08:00'/><meta property='og:image' content='https://example.com/photos/cover.jpg' />
+<meta name="twitter:title" content="Test Toc">
+<meta name="twitter:description" content="#1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1 1 1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/photos/cover.jpg' />
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
@@ -226,14 +226,168 @@
 </aside>
 
     
+       <aside class="sidebar right-toc-sidebar sticky">
+        
+            
+                
+
+<button id="toggle-toc">Toc</button>
+
+<section class="widget archives" id="toc-container">
+    
+    <h2 class="widget-title section-title">目录</h2>
+    
+
+    <div class="widget--toc">
+        
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#1">1</a>
+      <ol>
+        <li><a href="#1-1">1</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        
+    </div>
+</section>
+
+
+<style>
+    #mulu {
+        z-index: 9999;
+    }
+
+    #toc-container {
+        display: none;
+         
+        position: fixed;
+         
+        top: 11%;
+         
+        right: 5%;
+         
+        background-color: var(--card-background);
+         
+        padding: 10px;
+         
+        border: 1px solid #96979a50;
+        border-radius: var(--card-border-radius);
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+         
+        z-index: 9998 !important;
+         
+        max-height: 60vh;
+         
+        overflow-y: auto;
+         
+        width: 260px;
+         
+         
+         
+        max-width: 260px;
+    }
+
+    #toggle-toc {
+        position: fixed;
+        top: 10%;
+        right: 2%;
+        padding: 10px 10px;
+        z-index: 9998 !important;
+        border: 0px solid #96979a50;
+        border-radius: 7px;
+        box-shadow: var(--shadow-l1);
+        background-color: #00640010;
+        color: #34495e;
+         
+         
+        display: block;
+         
+        margin-bottom: 10px;
+        cursor: pointer;
+        font-size: 1.2rem;
+         
+    }
+
+     
+
+    @media screen and (max-width: 768px) {
+        #toggle-toc {
+            bottom: 100px;
+        }
+    }
+</style>
+
+<script>
+    
+    var toggleButton = document.getElementById('toggle-toc');
+    var tocContainer = document.getElementById('toc-container');
+    var scrollThreshold = 200; 
+
+    
+    window.addEventListener('scroll', function () {
+        
+        var scrollY = window.scrollY || window.pageYOffset;
+
+        
+        if (scrollY >= scrollThreshold) {
+            
+            toggleButton.style.display = 'block';
+        } else {
+            
+            toggleButton.style.display = 'none';
+        }
+    });
+
+    
+    toggleButton.addEventListener('click', function () {
+        
+        if (tocContainer.style.display === 'none' || tocContainer.style.display === '') {
+            tocContainer.style.display = 'block';
+        } else {
+            tocContainer.style.display = 'none';
+        }
+    });
+    
+    toggleButton.addEventListener('mouseover', function () {
+        tocContainer.style.display = 'block';
+    });
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+        
+    document.addEventListener('click', function (event) {
+        
+        if (!tocContainer.contains(event.target) && event.target !== toggleButton) {
+            
+            tocContainer.style.display = 'none';
+        }
+    });
+</script>
+            
+        
+    </aside>
+
+    
 
         <main class="main full-width">
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/tags/golang/golang/">
+            <a href="/p/test-toc/">
                 
-                    <img src="/cover.png" loading="lazy" alt="Featured image of post Golang" />
+                    <img src="/photos/cover.jpg" loading="lazy" alt="Featured image of post Test Toc" />
                 
             </a>
         </div>
@@ -241,10 +395,14 @@
 
     <div class="article-details">
     
+    <header class="article-category">
+        
+    </header>
+    
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/tags/golang/golang/">Golang</a>
+            <a href="/p/test-toc/">Test Toc</a>
         </h2>
 
         
@@ -255,6 +413,19 @@
     
     
     <footer class="article-time">
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+            <time class="article-time--published">2024-11-13</time>
+        </div>
         
 
         
@@ -268,7 +439,7 @@
 
 
             <time class="article-time--reading">
-                阅读时长: 0 分钟
+                阅读时长: 1 分钟
             </time>
         </div>
         
@@ -283,26 +454,65 @@
     <section class="article-content">
     
     
-    
+    <p>#1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1</p>
+<p>1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1</p>
+<h2 id="1">1
+</h2><h3 id="1-1">1
+</h3><p>1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1</p>
+<p>1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1<br>
+1</p>
+
 </section>
 
 
     <footer class="article-footer">
     
-
-    <section class="article-lastmod">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
+    <section class="article-tags">
+        
+    </section>
 
 
-
-        <span>
-            最后更新于 2024-11-10 14:42 CST
-        </span>
-    </section></footer>
+    </footer>
 
 
     

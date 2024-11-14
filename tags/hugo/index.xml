@@ -13,7 +13,7 @@
         <pubDate>Sun, 10 Nov 2024 21:32:07 +0800</pubDate>
         
         <guid>https://example.com/p/timeline/</guid>
-        <description>&lt;img src="https://example.com/p/timeline/cover.png" alt="Featured image of post 博客时间轴" /&gt;&lt;div class=&#34;timeline__row&#34;&gt;
+        <description>&lt;div class=&#34;timeline__row&#34;&gt;
     &lt;div class=&#34;timeline__time&#34;&gt;
         &lt;div class=&#34;timeline__time&#34;&gt;2024-11-10&lt;/div&gt;
         &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
@@ -23,7 +23,7 @@
             &lt;span class=&#34;timeline__tag timeline__tag-article&#34;&gt;文章&lt;/span&gt;
         &lt;/div&gt;
         &lt;a href=&#34;https://example.com/p/my-first-blog-test/&#34;&gt;
-            &lt;div class=&#34;timeline__title&#34;&gt;博客初见&lt;/div&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;My First Blog Test&lt;/div&gt;
         &lt;/a&gt;
         
         &lt;div class=&#34;timeline__description&#34;&gt;

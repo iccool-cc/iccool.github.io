@@ -7,13 +7,68 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>小小时光</copyright>
-        <lastBuildDate>Mon, 11 Nov 2024 14:17:41 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 13 Nov 2024 17:29:56 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Test Toc</title>
+        <link>https://example.com/p/test-toc/</link>
+        <pubDate>Wed, 13 Nov 2024 16:37:10 +0800</pubDate>
+        
+        <guid>https://example.com/p/test-toc/</guid>
+        <description>&lt;img src="https://example.com/photos/cover.jpg" alt="Featured image of post Test Toc" /&gt;&lt;p&gt;#1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;/p&gt;
+&lt;p&gt;1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;/p&gt;
+&lt;h2 id=&#34;1&#34;&gt;1
+&lt;/h2&gt;&lt;h3 id=&#34;1-1&#34;&gt;1
+&lt;/h3&gt;&lt;p&gt;1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;/p&gt;
+&lt;p&gt;1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;br&gt;
+1&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>博客时间轴</title>
         <link>https://example.com/p/timeline/</link>
         <pubDate>Sun, 10 Nov 2024 21:32:07 +0800</pubDate>
         
         <guid>https://example.com/p/timeline/</guid>
-        <description>&lt;img src="https://example.com/p/timeline/cover.png" alt="Featured image of post 博客时间轴" /&gt;&lt;div class=&#34;timeline__row&#34;&gt;
+        <description>&lt;div class=&#34;timeline__row&#34;&gt;
     &lt;div class=&#34;timeline__time&#34;&gt;
         &lt;div class=&#34;timeline__time&#34;&gt;2024-11-10&lt;/div&gt;
         &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
@@ -23,7 +78,7 @@
             &lt;span class=&#34;timeline__tag timeline__tag-article&#34;&gt;文章&lt;/span&gt;
         &lt;/div&gt;
         &lt;a href=&#34;https://example.com/p/my-first-blog-test/&#34;&gt;
-            &lt;div class=&#34;timeline__title&#34;&gt;博客初见&lt;/div&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;My First Blog Test&lt;/div&gt;
         &lt;/a&gt;
         
         &lt;div class=&#34;timeline__description&#34;&gt;
@@ -216,7 +271,16 @@
 &lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;图片&#34;&gt;图片
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/p/my-first-blog-test/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;&gt;
+&lt;img src=&#34;florian-klauer-nptLmg6jqDo-unsplash.jpg&#34; alt=&#34;Photo by Florian Klauer on Unsplash&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;img src=&#34;https://example.com/p/my-first-blog-test/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
 	width=&#34;667&#34;
 	height=&#34;1000&#34;
 	srcset=&#34;https://example.com/p/my-first-blog-test/florian-klauer-nptLmg6jqDo-unsplash_hu13768363498926278726.jpg 480w, https://example.com/p/my-first-blog-test/florian-klauer-nptLmg6jqDo-unsplash_hu13380208884366868750.jpg 1024w&#34;
@@ -228,8 +292,18 @@
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;66&#34;
 		data-flex-basis=&#34;160px&#34;
+    
 	
-&gt;  &lt;img src=&#34;https://example.com/p/my-first-blog-test/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
+&gt;  
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;&gt;
+&lt;img src=&#34;luca-bravo-alS7ewQ41M8-unsplash.jpg&#34; alt=&#34;Photo by Luca Bravo on Unsplash&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;img src=&#34;https://example.com/p/my-first-blog-test/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;667&#34;
 	srcset=&#34;https://example.com/p/my-first-blog-test/luca-bravo-alS7ewQ41M8-unsplash_hu1712544344331247820.jpg 480w, https://example.com/p/my-first-blog-test/luca-bravo-alS7ewQ41M8-unsplash_hu12475395149584884402.jpg 1024w&#34;
@@ -241,9 +315,19 @@
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;149&#34;
 		data-flex-basis=&#34;359px&#34;
+    
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/p/my-first-blog-test/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;
+&lt;p&gt;
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;&gt;
+&lt;img src=&#34;helena-hertz-wWZzXlDpMog-unsplash.jpg&#34; alt=&#34;Photo by Helena Hertz on Unsplash&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;img src=&#34;https://example.com/p/my-first-blog-test/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;750&#34;
 	srcset=&#34;https://example.com/p/my-first-blog-test/helena-hertz-wWZzXlDpMog-unsplash_hu8363585391189779282.jpg 480w, https://example.com/p/my-first-blog-test/helena-hertz-wWZzXlDpMog-unsplash_hu15102473124145023839.jpg 1024w&#34;
@@ -255,8 +339,18 @@
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
+    
 	
-&gt;  &lt;img src=&#34;https://example.com/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;
+&gt;  
+
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;&gt;
+&lt;img src=&#34;hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34; alt=&#34;Photo by Hudai Gayiran on Unsplash&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;img src=&#34;https://example.com/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;
 	
 	
 	
@@ -264,6 +358,8 @@
 	
 		alt=&#34;Photo by Hudai Gayiran on Unsplash&#34;
 	
+	
+		data-action=&#34;zoom&#34;
 	
 &gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -577,8 +673,57 @@
         });
         &lt;/script&gt;
 
+&lt;h2 id=&#34;参考&#34;&gt;参考
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.sleepymoon.cyou/2023/hugo-first-build-furnish/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo | 月球基地开发历程
+    
+    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+    
+    
+&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://yelleis.top/p/hugo-theme-stack-beautification/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hugo stack 主题美化
+    
+    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+    
+    
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.blain.top/p/renovation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小白hugo博客装修笔记（1）
+    
+    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+    
+    
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/hugo-stack-renovation/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Stack主题装修笔记
+    
+    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+    
+    
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://vofficial233.com/archives/deploy-my-hugo-blog&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;使用Hugo部署博客以及Stack主题的美化
     
     &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
         height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
