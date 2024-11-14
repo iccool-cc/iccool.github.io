@@ -36,15 +36,7 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;图片&#34;&gt;图片
 &lt;/h2&gt;&lt;p&gt;
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;&gt;
-&lt;img src=&#34;florian-klauer-nptLmg6jqDo-unsplash.jpg&#34; alt=&#34;Photo by Florian Klauer on Unsplash&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-&lt;img src=&#34;https://example.com/p/my-first-blog-test/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
+&lt;img  data-fancybox=&#34;gallery&#34; src=&#34;https://example.com/p/my-first-blog-test/florian-klauer-nptLmg6jqDo-unsplash.jpg&#34;
 	width=&#34;667&#34;
 	height=&#34;1000&#34;
 	srcset=&#34;https://example.com/p/my-first-blog-test/florian-klauer-nptLmg6jqDo-unsplash_hu13768363498926278726.jpg 480w, https://example.com/p/my-first-blog-test/florian-klauer-nptLmg6jqDo-unsplash_hu13380208884366868750.jpg 1024w&#34;
@@ -56,18 +48,9 @@
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;66&#34;
 		data-flex-basis=&#34;160px&#34;
-    
 	
 &gt;  
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;&gt;
-&lt;img src=&#34;luca-bravo-alS7ewQ41M8-unsplash.jpg&#34; alt=&#34;Photo by Luca Bravo on Unsplash&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-&lt;img src=&#34;https://example.com/p/my-first-blog-test/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
+&lt;img  data-fancybox=&#34;gallery&#34; src=&#34;https://example.com/p/my-first-blog-test/luca-bravo-alS7ewQ41M8-unsplash.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;667&#34;
 	srcset=&#34;https://example.com/p/my-first-blog-test/luca-bravo-alS7ewQ41M8-unsplash_hu1712544344331247820.jpg 480w, https://example.com/p/my-first-blog-test/luca-bravo-alS7ewQ41M8-unsplash_hu12475395149584884402.jpg 1024w&#34;
@@ -79,51 +62,17 @@
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;149&#34;
 		data-flex-basis=&#34;359px&#34;
-    
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;&gt;
-&lt;img src=&#34;helena-hertz-wWZzXlDpMog-unsplash.jpg&#34; alt=&#34;Photo by Helena Hertz on Unsplash&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-&lt;img src=&#34;https://example.com/p/my-first-blog-test/helena-hertz-wWZzXlDpMog-unsplash.jpg&#34;
-	width=&#34;1000&#34;
-	height=&#34;750&#34;
-	srcset=&#34;https://example.com/p/my-first-blog-test/helena-hertz-wWZzXlDpMog-unsplash_hu8363585391189779282.jpg 480w, https://example.com/p/my-first-blog-test/helena-hertz-wWZzXlDpMog-unsplash_hu15102473124145023839.jpg 1024w&#34;
+&lt;img  data-fancybox=&#34;gallery&#34; src=&#34;https://example.com/photos/cover.jpg&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Photo by Helena Hertz on Unsplash&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;133&#34;
-		data-flex-basis=&#34;320px&#34;
-    
-	
-&gt;  
-
-&lt;div class=&#34;post-img-view&#34;&gt;
-&lt;a data-fancybox=&#34;gallery&#34; href=&#34;hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;&gt;
-&lt;img src=&#34;hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34; alt=&#34;Photo by Hudai Gayiran on Unsplash&#34;  /&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-
-
-&lt;img src=&#34;https://example.com/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Photo by Hudai Gayiran on Unsplash&#34;
-	
-	
-		data-action=&#34;zoom&#34;
 	
 &gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -135,7 +84,7 @@
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Photo by Florian Klauer on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span&gt;)  ![&lt;span class=&#34;nt&#34;&gt;Photo by Luca Bravo on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span&gt;) 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Photo by Helena Hertz on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span&gt;)  ![&lt;span class=&#34;nt&#34;&gt;Photo by Hudai Gayiran on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Photo by Helena Hertz on Unsplash&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;photos/cover.jpg&lt;/span&gt;)  
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;相册语法来自 &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -495,6 +444,10 @@
         &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
+    
+    
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;灯箱fancybox参考: &lt;a class=&#34;link&#34; href=&#34;%22https://naturaleki.one/post/loading-hugo-05/%22&#34; &gt;■■Loading：《hugo 装修日志 05》■■
     
     
 &lt;/a&gt;&lt;/p&gt;
